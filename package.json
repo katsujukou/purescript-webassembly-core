@@ -1,0 +1,20 @@
+{
+  "name": "webassembly-core",
+  "version": "1.0.0",
+  "description": "A bunch of PureScript bindings to the WebAssembly core specification.",
+  "keywords": [
+    "webassembly",
+    "wasm",
+    "purescript"
+  ],
+  "author": {
+    "name": "Katsujukou Kineya",
+    "email": "katsujukou@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "spago build",
+    "test": "spago -x spago.test.dhall test -m Test.Main",
+    "check": "purs-tidy check src test"
+  }
+}
